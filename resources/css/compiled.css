@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box; }
+
+h1, .game-nav {
+  color: white;
+  text-shadow: 0 0 5px #963232;
+  font-size: 22px; }
+
+.site-wrap {
+  position: relative;
+  max-width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 10px 0;
+  font-family: sans-serif; }
+
+.site-head, .game-nav {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center; }
+
+.site-head {
+  background: linear-gradient(to bottom, #326432, #4c974c); }
+
+.game-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: linear-gradient(to bottom, #54a854, #75ba75);
+  font-size: 18px; }
+
+.game-board {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10px; }
+
+.movie-card {
+  padding: 0;
+  margin-bottom: 10px;
+  border: 1px solid #326432;
+  border-radius: 5px; }
+
+.card-header, .guess-header {
+  padding: 5px;
+  margin: 0;
+  background: gray;
+  color: white;
+  font-size: 16px;
+  text-align: center; }
+
+.tomato-score {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #990000;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center; }
+
+.guess-header {
+  text-align: left; }
+
+.user-input {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center; }
+
+.show-slider-value {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold; }
+
+.number-input {
+  width: 70%;
+  max-width: 300px;
+  padding-bottom: 10px; }
+
+.submit-button {
+  display: block;
+  margin: 7px auto;
+  font-size: 26px; }
+
+.their-table {
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  table-layout: fixed;
+  font-weight: bold; }
+  .their-table td:nth-child(1) {
+    column-width: 70%;
+    padding-left: 5px;
+    text-align: left; }
+  .their-table td:nth-child(2) {
+    column-width: 30%;
+    padding-right: 5px;
+    text-align: right; }
+
+/* 
+  TEST SLIDER BELOW
+  http://www.cssportal.com/style-input-range/
+*/
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 80%; }
+
+input[type=range]:focus {
+  outline: none; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 80%;
+  height: 16px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #3071A9;
+  border-radius: 5px;
+  border: 1px solid #000000; }
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8px; }
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #3071A9; }
+
+input[type=range]::-moz-range-track {
+  width: 80%;
+  height: 16px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #3071A9;
+  border-radius: 5px;
+  border: 1px solid #000000; }
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+input[type=range]::-ms-track {
+  width: 80%;
+  height: 16px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent; }
+
+input[type=range]::-ms-fill-lower {
+  background: #3071A9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000; }
+
+input[type=range]::-ms-fill-upper {
+  background: #3071A9;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #000000; }
+
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer; }
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #3071A9; }
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #3071A9; }
+
+/* END TEST SLIDER */
