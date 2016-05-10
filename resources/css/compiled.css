@@ -23,11 +23,13 @@ h1, .game-nav {
   text-align: center; }
 
 .site-head {
+  background: -webkit-linear-gradient(top, #326432, #4c974c);
   background: linear-gradient(to bottom, #326432, #4c974c); }
 
 .game-nav {
   padding-top: 15px;
   padding-bottom: 15px;
+  background: -webkit-linear-gradient(top, #54a854, #75ba75);
   background: linear-gradient(to bottom, #54a854, #75ba75);
   font-size: 18px; }
 
@@ -93,11 +95,15 @@ h1, .game-nav {
   table-layout: fixed;
   font-weight: bold; }
   .their-table td:nth-child(1) {
-    column-width: 70%;
+    -webkit-column-width: 70%;
+       -moz-column-width: 70%;
+            column-width: 70%;
     padding-left: 5px;
     text-align: left; }
   .their-table td:nth-child(2) {
-    column-width: 30%;
+    -webkit-column-width: 30%;
+       -moz-column-width: 30%;
+            column-width: 30%;
     padding-right: 5px;
     text-align: right; }
 
