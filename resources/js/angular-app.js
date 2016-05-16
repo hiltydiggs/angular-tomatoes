@@ -47,12 +47,14 @@ DATA.
 var app = angular.module('gameApp', []);
 
 app.controller('gameCtrl', function($scope, $http) {
-  $http.get('/json/strung.json')
+
+  $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json')
   .then(function(response) {
     init(response.data);
   });
+
 });
 
 function init(obj) {
-  
+  $('.game-nav span').text(obj.database[0].category);
 }
