@@ -47,7 +47,7 @@ DATA.
 var app = angular.module('gameApp', []);
 var movieArray;
 
-app.controller('gameCtrl', ['$scope', '$http', function($scope, $http) {
+app.controller('gameCtrl', function($scope, $http) {
   
   var gameScope = this;
 
@@ -57,4 +57,4 @@ app.controller('gameCtrl', ['$scope', '$http', function($scope, $http) {
     gameScope.movie = movieArray;
   });
 
-}]);
+});
