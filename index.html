@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html ng-app="gameApp" ng-controller="gameCtrl as game" ng-cloak>
 
   <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="resources/css/compiled.css" />
   </head>
 
-  <body ng-app="gameApp" ng-controller="gameCtrl" ng-cloak>
+  <body>
   <main class="site-wrap">
     
     <header class="site-head">
@@ -16,7 +16,7 @@
     </header>
     
     <nav class="game-nav">
-      <span>Fast &amp; Furious Cast Members (Part 2)</span>
+      <span>{{ game.movie.database[0].category }}</span>
     </nav>
     
     <!--
@@ -24,11 +24,11 @@
          should replace top .site-head h1 and filtered by score
       -->
     
-    <div class="game-board">
+    <div class="game-board" ng-repeat="movie in game.movie.database[0].movies">
       
       <section class="movie-card">
-        <h6 class="card-header">Movie Title That is Pretty Long Episode 2</h6>
-        <span class="tomato-score">86</span>
+        <h6 class="card-header">{{ movie.title }}</h6>
+        <span class="tomato-score">{{ movie.tomatoScore }}</span>
         
         <section>
           <h6 class="guess-header">Your Guess:</h6>

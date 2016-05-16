@@ -45,16 +45,16 @@ DATA.
 ***************************/
 
 var app = angular.module('gameApp', []);
+var movieArray;
 
-app.controller('gameCtrl', function($scope, $http) {
+app.controller('gameCtrl', ['$scope', '$http', function($scope, $http) {
+  
+  var gameScope = this;
 
   $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json')
   .then(function(response) {
-    init(response.data);
+    movieArray = response.data;
+    gameScope.movie = movieArray;
   });
 
-});
-
-function init(obj) {
-  $('.game-nav span').text(obj.database[0].category);
-}
+}]);
