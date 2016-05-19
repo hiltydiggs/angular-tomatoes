@@ -45,7 +45,6 @@ DATA.
 ***************************/
 
 var app = angular.module('gameApp', []);
-var movieArray;
 
 app.controller('gameCtrl', function($http) {
   var gameScope = this;
@@ -53,8 +52,7 @@ app.controller('gameCtrl', function($http) {
 
   $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json')
   .then(function(response) {
-    movieArray = response.data;
-    gameScope.movie = movieArray;
+    gameScope.movie = response.data;
   });
 
 });
