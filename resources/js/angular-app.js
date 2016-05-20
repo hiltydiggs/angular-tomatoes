@@ -44,15 +44,19 @@ DATA.
   }
 ***************************/
 
-var app = angular.module('gameApp', []);
+angular.module('gameApp', [])
+  .controller('DatabaseController', ['$scope', '$http', DatabaseController])
+  .factory('databaseFactory', ['$http', databaseFactory]);
 
-app.controller('gameCtrl', function($http) {
-  var gameScope = this;
-  console.log(gameScope);
+function DatabaseController($scope, $http) {
 
   $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json')
   .then(function(response) {
-    gameScope.movie = response.data;
+    $scope.movie = response.data;
   });
 
-});
+}
+
+function databaseFactory($http) {
+  console.log('hello');
+}

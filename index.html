@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="resources/css/compiled.css" />
   </head>
 
-  <body ng-controller="gameCtrl as game">
+  <body ng-controller="DatabaseController">
   <main class="site-wrap">
     
     <header class="site-head">
@@ -16,7 +16,7 @@
     </header>
     
     <nav class="game-nav">
-      <span>{{ game.movie.database[0].category }}</span>
+      <span>{{ movie.database[0].category }}</span>
     </nav>
     
     <!--
@@ -24,15 +24,15 @@
          should replace top .site-head h1 and filtered by score
       -->
     
-    <div class="game-board" ng-repeat="movie in game.movie.database[0].movies">
+    <div class="game-board" ng-repeat="movie in movie.database[0].movies">
       
       <section class="movie-card">
-        <h6 class="card-header">{{ movie.title | uppercase }}</h6>
-        <span class="tomato-score">{{ movie.tomatoScore }}</span>
+        <h6 class="card-header">{{ title | uppercase }}</h6>
+        <span class="tomato-score" ng-show="isSubmitted">{{ tomatoScore }}</span>
         
         <section>
           <h6 class="guess-header">Your Guess:</h6>
-          <form class="user-input" autocomplete="off" ng-init="model.range = 50">
+          <form class="user-input" autocomplete="off" ng-submit="submit(model.range)" ng-init="model.range = 50">
             <span class="show-slider-value">{{ model.range }}</span>
             <input type="range" class="number-input" ng-model="model.range" value="50" min="0" max="100" />
             <input type="submit" class="submit-button" value="Submit" />
@@ -46,7 +46,7 @@
             <tbody>
               <tr ng-repeat="(key, value) in movie.scores">
                 <td>{{ key | uppercase }}</td>
-                <td>{{ value }}</td>
+                <td ng-show="isSubmitted">{{ value }}</td>
               </tr>
             </tbody>
           </table>
