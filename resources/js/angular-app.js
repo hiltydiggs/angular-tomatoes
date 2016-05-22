@@ -50,7 +50,6 @@ angular.module('gameApp', [])
   .factory('databaseFactory', ['$http', databaseFactory]);
 
 function DatabaseController($scope, databaseFactory) {
-
   databaseFactory.getDatabase()
     .then(function(response) {
       $scope.movie = response.data;
@@ -67,7 +66,6 @@ function SubmitController($scope) {
 }
 
 function databaseFactory($http) {
-  
   return {
     getDatabase: function() {
       return $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json');

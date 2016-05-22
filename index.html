@@ -30,18 +30,6 @@
         <h6 class="card-header">{{ movie.title | uppercase }}</h6>
         <span class="tomato-score" ng-show="isSubmitted">{{ movie.tomatoScore }}</span>
         
-        <!-- THIS WORKS
-        <section ng-controller="SubmitController">
-          <h6 class="guess-header">Your Guess:</h6>
-          <form class="user-input" autocomplete="off" ng-submit="submit(model.range)" ng-init="model.range = 50">
-            <span class="show-slider-value">{{ model.range }}</span>
-            <input type="range" class="number-input" ng-model="model.range" value="50" min="0" max="100" />
-            <input type="submit" class="submit-button" value="Submit" />
-          </form>
-        </section>
-        -->
-
-        <!-- NEW TEST SECTION -->
         <section>
           <h6 class="guess-header">Your Guess:</h6>
           <form class="user-input" autocomplete="off" ng-submit="submit(userGuess)">
