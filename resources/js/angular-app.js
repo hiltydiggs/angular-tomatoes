@@ -46,6 +46,7 @@ DATA.
 
 angular.module('gameApp', [])
   .controller('DatabaseController', ['$scope', 'databaseFactory', DatabaseController])
+  .controller('SubmitController', ['$scope', SubmitController])
   .factory('databaseFactory', ['$http', databaseFactory]);
 
 function DatabaseController($scope, databaseFactory) {
@@ -54,7 +55,15 @@ function DatabaseController($scope, databaseFactory) {
     .then(function(response) {
       $scope.movie = response.data;
     });
+}
 
+function SubmitController($scope) {
+  $scope.userGuess = 50;
+  $scope.isSubmitted = false;
+  $scope.submit = function () {
+    console.log(this.userGuess);
+    this.isSubmitted = true;
+  }
 }
 
 function databaseFactory($http) {
@@ -64,5 +73,4 @@ function databaseFactory($http) {
       return $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json');
     }
   }
-
 }
