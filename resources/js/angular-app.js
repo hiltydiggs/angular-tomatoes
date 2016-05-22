@@ -60,8 +60,9 @@ function SubmitController($scope) {
   $scope.userGuess = 50;
   $scope.isSubmitted = false;
   $scope.submit = function () {
-    console.log(this.userGuess);
-    this.isSubmitted = true;
+    console.log($scope.userGuess);
+    $scope.isSubmitted = true;
+    console.log(Math.abs($scope.userGuess - $scope.movie.tomatoScore));
   }
 }
 
