@@ -19,10 +19,18 @@
       <span>{{ movie.database[0].category }}</span>
     </nav>
     
-    <!--
-      ** STILL NEED TO BUILD IN A (POSSIBLY FIXED) SCOREBOARD **
-         should replace top .site-head h1 and filtered by score
-      -->
+    <section class="score-board" ng-controller="ScoreController">
+      <table>
+        <thead></thead>
+        <tbody>
+          <tr>
+            <td ng-repeat="(key, value) in scoreboard">
+              {{ key }}: {{ value }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     
     <div class="game-board" ng-controller="SubmitController" ng-repeat="movie in movie.database[0].movies">
       
