@@ -20,16 +20,9 @@
     </nav>
     
     <section class="score-board" ng-controller="ScoreController">
-      <table>
-        <thead></thead>
-        <tbody>
-          <tr>
-            <td ng-repeat="(key, value) in scoreboard">
-              {{ key }}: {{ value }}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <span ng-repeat="(key, value) in scoreboard">
+        {{ key }}: {{ value }}
+      </span>
     </section>
     
     <div class="game-board" ng-controller="SubmitController" ng-repeat="movie in movie.database[0].movies">
