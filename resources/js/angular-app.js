@@ -102,7 +102,7 @@ function scoreService() {
 function databaseFactory($http) {
   return {
     getDatabase: function() {
-      return $http.get('https://angular-tomatoes.azurewebsites.net/json/strung.json');
+      return $http.get('https://angular-tomatoes.azurewebsites.net/json/movie-database.json');
     }
   }
 }
