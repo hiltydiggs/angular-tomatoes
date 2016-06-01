@@ -46,6 +46,7 @@ h1, .game-nav {
   left: 0;
   width: 100%;
   height: 50px;
+  padding-top: 7px;
   background: #449944;
   text-align: center;
   font-family: sans-serif;
@@ -53,7 +54,6 @@ h1, .game-nav {
   font-size: 16px; }
   .score-board span {
     width: 25%;
-    margin-top: 14px;
     color: white; }
 
 .movie-card {
