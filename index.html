@@ -34,7 +34,7 @@
     
     <section class="score-board" ng-controller="ScoreController">
       <span ng-repeat="(key, value) in scoreboard">
-        {{ key }}: {{ value }}
+        {{ key | uppercase }}: {{ value }}
       </span>
     </section>
     
