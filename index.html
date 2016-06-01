@@ -35,6 +35,7 @@
     <section class="score-board" ng-controller="ScoreController">
       <span ng-repeat="(key, value) in scoreboard">
         {{ key | uppercase }}: {{ value }}
+        <br ng-if="$index == 1" />
       </span>
     </section>
     
