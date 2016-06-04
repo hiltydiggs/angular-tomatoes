@@ -3,12 +3,12 @@
 		{
 			"category": "Russell Crowe Movies",
 			"date": "05/18/2016",
-			"url": ""
+			"url": "https://angular-tomatoes.azurewebsites.net/json/05-18-2016.json"
 		},
 		{
 			"category": "Cast of Captain America: Civil War",
 			"date": "05/04/2016",
-			"url": ""
+			"url": "https://angular-tomatoes.azurewebsites.net/json/05-04-2016.json"
 		}
 	]
 }
