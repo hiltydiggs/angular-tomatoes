@@ -1,6 +1,72 @@
 {
 	"database": [
 		{
+			"category": "NOW YOU SEE ME 2 CAST",
+			"date": "06/08/2016",
+			"movies": [
+				{
+					"title": "ZOMBIELAND",
+					"year": 2009,
+					"url": "",
+					"tomatoScore": 89,
+					"scores": {
+						"Ace": 86,
+						"Bald": 82,
+						"Gina": 72,
+						"Brian Grazer": 78
+					}
+				},
+				{
+					"title": "FOX CATCHER",
+					"year": 2014,
+					"url": "",
+					"tomatoScore": 89,
+					"scores": {
+						"Ace": 81,
+						"Bald": 94,
+						"Gina": 91,
+						"Brian Grazer": 86
+					}
+				},
+				{
+					"title": "UNFINISHED BUSINESS",
+					"year": 2015,
+					"url": "",
+					"tomatoScore": 11,
+					"scores": {
+						"Ace": 22,
+						"Bald": 15,
+						"Gina": 18,
+						"Brian Grazer": 42
+					}
+				},
+				{
+					"title": "AUSTIN POWERS: GOLD MEMBER",
+					"year": 2002,
+					"url": "",
+					"tomatoScore": 54,
+					"scores": {
+						"Ace": 53,
+						"Bald": 55,
+						"Gina": 30,
+						"Brian Grazer": 30
+					}
+				},
+				{
+					"title": "THE BUCKET LIST",
+					"year": 2007,
+					"url": "",
+					"tomatoScore": 41,
+					"scores": {
+						"Ace": 41,
+						"Bald": 55,
+						"Gina": 65,
+						"Brian Grazer": 48
+					}
+				}
+			]
+		},
+		{
 			"category": "Russell Crowe Movies",
 			"date": "05/18/2016",
 			"movies": [
