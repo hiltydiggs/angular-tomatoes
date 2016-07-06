@@ -1,6 +1,67 @@
 {
 	"database": [
 		{
+			"category": "MOVIES SET IN HAWAII",
+			"date": "07/06/2016",
+			"movies": [
+				{
+					"title": "50 FIRST DATES",
+					"year": 2004,
+					"url": "",
+					"tomatoScore": 44,
+					"scores": {
+						"Ace": 61,
+						"Bald": 38,
+						"Gina": 58
+					}
+				},
+				{
+					"title": "FORGETTING SARAH MARSHALL",
+					"year": 2008,
+					"url": "",
+					"tomatoScore": 85,
+					"scores": {
+						"Ace": 79,
+						"Bald": 80,
+						"Gina": 76
+					}
+				},
+				{
+					"title": "THE DESCENDANTS",
+					"year": 2011,
+					"url": "",
+					"tomatoScore": 89,
+					"scores": {
+						"Ace": 91,
+						"Bald": 94,
+						"Gina": 91
+					}
+				},
+				{
+					"title": "GODZILLA",
+					"year": 2014,
+					"url": "",
+					"tomatoScore": 74,
+					"scores": {
+						"Ace": 54,
+						"Bald": 68,
+						"Gina": 42
+					}
+				},
+				{
+					"title": "ALOHA",
+					"year": 2015,
+					"url": "",
+					"tomatoScore": 19,
+					"scores": {
+						"Ace": 11,
+						"Bald": 30,
+						"Gina": 20
+					}
+				}
+			]
+		},
+		{
 			"category": "NOW YOU SEE ME 2 CAST",
 			"date": "06/08/2016",
 			"movies": [
