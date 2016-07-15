@@ -1,0 +1,61 @@
+{
+  "category": "Cast of Captain America: Civil War",
+  "date": "05/04/2016",
+  "movies": [
+    {
+      "title": "FANTASTIC FOUR",
+      "year": 2005,
+      "url": "http://www.rottentomatoes.com/m/fantastic_four/",
+      "tomatoScore": 27,
+      "scores": {
+        "Ace": 31,
+        "Bald": 33,
+        "Gina": 69
+      }
+    },
+    {
+      "title": "KISS KISS, BANG BANG",
+      "year": 2005,
+      "url": "http://www.rottentomatoes.com/m/kiss_kiss_bang_bang/",
+      "tomatoScore": 85,
+      "scores": {
+        "Ace": 79,
+        "Bald": 70,
+        "Gina": 78
+      }
+    },
+    {
+      "title": "GET ON UP",
+      "year": 2014,
+      "url": "http://www.rottentomatoes.com/m/get_on_up/",
+      "tomatoScore": 80,
+      "scores": {
+        "Ace": 41,
+        "Bald": 20,
+        "Gina": 40
+      }
+    },
+    {
+      "title": "PAIN & GAIN",
+      "year": 2013,
+      "url": "http://www.rottentomatoes.com/m/pain_and_gain/",
+      "tomatoScore": 49,
+      "scores": {
+        "Ace": 59,
+        "Bald": 61,
+        "Gina": 62
+      }
+    },
+    {
+      "title": "LUCY",
+      "year": 2014,
+      "url": "http://www.rottentomatoes.com/m/lucy_2014/",
+      "tomatoScore": 67,
+      "scores": {
+        "Ace": 60,
+        "Bald": 20,
+        "Gina": 39
+      }
+    }
+  ]
+}

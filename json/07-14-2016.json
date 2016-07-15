@@ -1,0 +1,61 @@
+{
+  "category": "UNDERCOVER",
+  "date": "07/14/2016",
+  "movies": [
+    {
+      "title": "RESERVOIR DOGS",
+      "year": 1992,
+      "url": "",
+      "tomatoScore": 90,
+      "scores": {
+        "Ace": 94,
+        "Bald": 91,
+        "Gina": 90
+      }
+    },
+    {
+      "title": "UNDERCOVER BROTHER",
+      "year": 2002,
+      "url": "",
+      "tomatoScore": 77,
+      "scores": {
+        "Ace": 23,
+        "Bald": 60,
+        "Gina": 26
+      }
+    },
+    {
+      "title": "WHITE CHICKS",
+      "year": 2004,
+      "url": "",
+      "tomatoScore": 15,
+      "scores": {
+        "Ace": 13,
+        "Bald": 25,
+        "Gina": 48
+      }
+    },
+    {
+      "title": "AMERICAN HUSTLE",
+      "year": 2013,
+      "url": "",
+      "tomatoScore": 93,
+      "scores": {
+        "Ace": 91,
+        "Bald": 93,
+        "Gina": 88
+      }
+    },
+    {
+      "title": "TWO GUNS",
+      "year": 2013,
+      "url": "",
+      "tomatoScore": 64,
+      "scores": {
+        "Ace": 37,
+        "Bald": 65,
+        "Gina": 39
+      }
+    }
+  ]
+}
