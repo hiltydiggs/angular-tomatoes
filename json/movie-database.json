@@ -1,6 +1,67 @@
 {
 	"database": [
 		{
+			"category": "ACTORS FROM SUICIDE SQUAD",
+			"date": "08/03/2016",
+			"movies": [
+				{
+					"title": "SIX DEGREES OF SEPARATION",
+					"year": 1993,
+					"url": "https://www.rottentomatoes.com/m/six_degrees_of_separation/",
+					"tomatoScore": 88,
+					"scores": {
+						"Ace": 71,
+						"Bald": 92,
+						"Gina": 88
+					}
+				},
+				{
+					"title": "MADEA GOES TO JAIL",
+					"year": 2009,
+					"url": "https://www.rottentomatoes.com/m/madea-goes-to-jail/",
+					"tomatoScore": 29,
+					"scores": {
+						"Ace": 11,
+						"Bald": 55,
+						"Gina": 20
+					}
+				},
+				{
+					"title": "THE THIN RED LINE",
+					"year": 1998,
+					"url": "https://www.rottentomatoes.com/m/1084146-thin_red_line/",
+					"tomatoScore": 78,
+					"scores": {
+						"Ace": 74,
+						"Bald": 93,
+						"Gina": 81
+					}
+				},
+				{
+					"title": "A GOOD DAY TO DIE HARD",
+					"year": 2013,
+					"url": "https://www.rottentomatoes.com/m/a_good_day_to_die_hard/",
+					"tomatoScore": 14,
+					"scores": {
+						"Ace": 23,
+						"Bald": 25,
+						"Gina": 40
+					}
+				},
+				{
+					"title": "WANTED",
+					"year": 2008,
+					"url": "https://www.rottentomatoes.com/m/1174279-wanted/",
+					"tomatoScore": 72,
+					"scores": {
+						"Ace": 46,
+						"Bald": 72,
+						"Gina": 29
+					}
+				}
+			]
+		},
+		{
 			"category": "MATT DAMMON",
 			"date": "07/29/2016",
 			"movies": [
