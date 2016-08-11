@@ -1,6 +1,67 @@
 {
 	"database": [
 		{
+			"category": "SAUSAGE PARTY VOICE ACTORS",
+			"date": "08/11/2016",
+			"movies": [
+				{
+					"title": "THE WATCH",
+					"year": 2012,
+					"url": "https://www.rottentomatoes.com/m/the_watch_2012",
+					"tomatoScore": 17,
+					"scores": {
+						"Ace": 31,
+						"Bald": 20,
+						"Gina": 24
+					}
+				},
+				{
+					"title": "DOGMA",
+					"year": 1999,
+					"url": "https://www.rottentomatoes.com/m/dogma",
+					"tomatoScore": 67,
+					"scores": {
+						"Ace": 76,
+						"Bald": 70,
+						"Gina": 87
+					}
+				},
+				{
+					"title": "I LOVE YOU, MAN",
+					"year": 2009,
+					"url": "https://www.rottentomatoes.com/m/i_love_you_man",
+					"tomatoScore": 84,
+					"scores": {
+						"Ace": 74,
+						"Bald": 83,
+						"Gina": 68
+					}
+				},
+				{
+					"title": "THE GREEN HORNET",
+					"year": 2011,
+					"url": "https://www.rottentomatoes.com/m/green_hornet",
+					"tomatoScore": 43,
+					"scores": {
+						"Ace": 16,
+						"Bald": 25,
+						"Gina": 22
+					}
+				},
+				{
+					"title": "PINEAPPLE EXPRESS",
+					"year": 2008,
+					"url": "https://www.rottentomatoes.com/m/pineapple_express",
+					"tomatoScore": 68,
+					"scores": {
+						"Ace": 63,
+						"Bald": 70,
+						"Gina": 88
+					}
+				}
+			]
+		},
+		{
 			"category": "ACTORS FROM SUICIDE SQUAD",
 			"date": "08/03/2016",
 			"movies": [
