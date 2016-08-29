@@ -1,6 +1,67 @@
 {
 	"database": [
 		{
+			"category": "SCHOOL",
+			"date": "08/29/2016",
+			"movies": [
+				{
+					"title": "FAST TIMES AT RIDGEMONT HIGH",
+					"year": 1982,
+					"url": "",
+					"tomatoScore": 78,
+					"scores": {
+						"Ace": 88,
+						"Bald": 85,
+						"Gina": 84
+					}
+				},
+				{
+					"title": "BACK TO SCHOOL",
+					"year": 1986,
+					"url": "",
+					"tomatoScore": 84,
+					"scores": {
+						"Ace": 61,
+						"Bald": 70,
+						"Gina": 50
+					}
+				},
+				{
+					"title": "KINDERGARTEN COP",
+					"year": 1990,
+					"url": "",
+					"tomatoScore": 51,
+					"scores": {
+						"Ace": 53,
+						"Bald": 70,
+						"Gina": 28
+					}
+				},
+				{
+					"title": "10 THINGS I HATE ABOUT YOU",
+					"year": 1999,
+					"url": "",
+					"tomatoScore": 61,
+					"scores": {
+						"Ace": 77,
+						"Bald": 80,
+						"Gina": 81
+					}
+				},
+				{
+					"title": "SCHOOL OF ROCK",
+					"year": 2003,
+					"url": "",
+					"tomatoScore": 92,
+					"scores": {
+						"Ace": 89,
+						"Bald": 90,
+						"Gina": 90
+					}
+				}
+			]
+		},
+		{
 			"category": "SAUSAGE PARTY VOICE ACTORS",
 			"date": "08/11/2016",
 			"movies": [
