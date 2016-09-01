@@ -5,7 +5,7 @@
     {
       "title": "RESERVOIR DOGS",
       "year": 1992,
-      "url": "",
+      "url": "https://www.rottentomatoes.com/m/reservoir_dogs",
       "tomatoScore": 90,
       "scores": {
         "Ace": 94,
@@ -16,7 +16,7 @@
     {
       "title": "UNDERCOVER BROTHER",
       "year": 2002,
-      "url": "",
+      "url": "https://www.rottentomatoes.com/m/undercover_brother",
       "tomatoScore": 77,
       "scores": {
         "Ace": 23,
@@ -27,7 +27,7 @@
     {
       "title": "WHITE CHICKS",
       "year": 2004,
-      "url": "",
+      "url": "https://www.rottentomatoes.com/m/white_chicks",
       "tomatoScore": 15,
       "scores": {
         "Ace": 13,
@@ -38,7 +38,7 @@
     {
       "title": "AMERICAN HUSTLE",
       "year": 2013,
-      "url": "",
+      "url": "https://www.rottentomatoes.com/m/american_hustle",
       "tomatoScore": 93,
       "scores": {
         "Ace": 91,
@@ -47,9 +47,9 @@
       }
     },
     {
-      "title": "TWO GUNS",
+      "title": "2 GUNS",
       "year": 2013,
-      "url": "",
+      "url": "https://www.rottentomatoes.com/m/2_guns",
       "tomatoScore": 64,
       "scores": {
         "Ace": 37,

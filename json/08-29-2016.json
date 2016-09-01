@@ -1,0 +1,61 @@
+{
+  "category": "SCHOOL",
+  "date": "08/29/2016",
+  "movies": [
+    {
+      "title": "FAST TIMES AT RIDGEMONT HIGH",
+      "year": 1982,
+      "url": "https://www.rottentomatoes.com/m/fast_times_at_ridgemont_high",
+      "tomatoScore": 78,
+      "scores": {
+        "Ace": 88,
+        "Bald": 85,
+        "Gina": 84
+      }
+    },
+    {
+      "title": "BACK TO SCHOOL",
+      "year": 1986,
+      "url": "https://www.rottentomatoes.com/m/back-to-school",
+      "tomatoScore": 84,
+      "scores": {
+        "Ace": 61,
+        "Bald": 70,
+        "Gina": 50
+      }
+    },
+    {
+      "title": "KINDERGARTEN COP",
+      "year": 1990,
+      "url": "https://www.rottentomatoes.com/m/kindergarten_cop",
+      "tomatoScore": 51,
+      "scores": {
+        "Ace": 53,
+        "Bald": 70,
+        "Gina": 28
+      }
+    },
+    {
+      "title": "10 THINGS I HATE ABOUT YOU",
+      "year": 1999,
+      "url": "https://www.rottentomatoes.com/m/10_things_i_hate_about_you",
+      "tomatoScore": 61,
+      "scores": {
+        "Ace": 77,
+        "Bald": 80,
+        "Gina": 81
+      }
+    },
+    {
+      "title": "SCHOOL OF ROCK",
+      "year": 2003,
+      "url": "https://www.rottentomatoes.com/m/school_of_rock",
+      "tomatoScore": 92,
+      "scores": {
+        "Ace": 89,
+        "Bald": 90,
+        "Gina": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category": "TV SHOWS TURNED INTO MOVIES",
+  "date": "07/20/2016",
+  "movies": [
+    {
+      "title": "THE ADDAMS FAMILY",
+      "year": 1991,
+      "url": "https://www.rottentomatoes.com/m/addams_family",
+      "tomatoScore": 60,
+      "scores": {
+        "Ace": 49,
+        "Bald": 70,
+        "Gina": 68
+      }
+    },
+    {
+      "title": "THE BEVERLY HILLBILLIES",
+      "year": 1993,
+      "url": "https://www.rottentomatoes.com/m/1046435-beverly_hillbillies",
+      "tomatoScore": 23,
+      "scores": {
+        "Ace": 33,
+        "Bald": 33,
+        "Gina": 27
+      }
+    },
+    {
+      "title": "MAVERICK",
+      "year": 1994,
+      "url": "https://www.rottentomatoes.com/m/maverick",
+      "tomatoScore": 67,
+      "scores": {
+        "Ace": 61,
+        "Bald": 74,
+        "Gina": 74
+      }
+    },
+    {
+      "title": "GET SMART",
+      "year": 2008,
+      "url": "https://www.rottentomatoes.com/m/get_smart",
+      "tomatoScore": 51,
+      "scores": {
+        "Ace": 55,
+        "Bald": 25,
+        "Gina": 49
+      }
+    },
+    {
+      "title": "STRANGE BREW",
+      "year": 1983,
+      "url": "https://www.rottentomatoes.com/m/strange_brew",
+      "tomatoScore": 71,
+      "scores": {
+        "Ace": 43,
+        "Bald": 80,
+        "Gina": 42
+      }
+    }
+  ]
+}
