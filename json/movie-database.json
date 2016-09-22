@@ -1,6 +1,67 @@
 {
 	"database": [
 		{
+			"category": "JOSEPH GORDON-LEVITT",
+			"date": "09/22/2016",
+			"movies": [
+				{
+					"title": "50/50",
+					"year": 2011,
+					"url": "https://www.rottentomatoes.com/m/5050_2011/",
+					"tomatoScore": 94,
+					"scores": {
+						"Ace": 83,
+						"PP": 90,
+						"Gina": 77
+					}
+				},
+				{
+					"title": "THE JUROR",
+					"year": 1996,
+					"url": "https://www.rottentomatoes.com/m/juror",
+					"tomatoScore": 15,
+					"scores": {
+						"Ace": 68,
+						"PP": 65,
+						"Gina": 72
+					}
+				},
+				{
+					"title": "G.I. JOE: THE RISE OF COBRA",
+					"year": 2009,
+					"url": "https://www.rottentomatoes.com/m/gi_joe_the_rise_of_cobra",
+					"tomatoScore": 35,
+					"scores": {
+						"Ace": 43,
+						"PP": 30,
+						"Gina": 22
+					}
+				},
+				{
+					"title": "LOOPER",
+					"year": 2012,
+					"url": "https://www.rottentomatoes.com/m/looper",
+					"tomatoScore": 93,
+					"scores": {
+						"Ace": 79,
+						"PP": 83,
+						"Gina": 66
+					}
+				},
+				{
+					"title": "ANGELS IN THE OUTFIELD",
+					"year": 1994,
+					"url": "https://www.rottentomatoes.com/m/1055833-angels_in_the_outfield",
+					"tomatoScore": 35,
+					"scores": {
+						"Ace": 21,
+						"PP": 50,
+						"Gina": 14
+					}
+				}
+			]
+		},
+		{
 			"category": "AIRPLANES",
 			"date": "09/16/2016",
 			"movies": [
