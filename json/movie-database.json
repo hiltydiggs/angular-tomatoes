@@ -12,7 +12,8 @@
 					"scores": {
 						"Ace": 32,
 						"Bald": 25,
-						"Bill": 29
+						"Bill": 29,
+						"Gina": 49
 					}
 				},
 				{
@@ -23,7 +24,8 @@
 					"scores": {
 						"Ace": 47,
 						"Bald": 60,
-						"Bill": 58
+						"Bill": 58,
+						"Gina": 53
 					}
 				},
 				{
@@ -34,7 +36,8 @@
 					"scores": {
 						"Ace": 63,
 						"Bald": 40,
-						"Bill": 63
+						"Bill": 63,
+						"Gina": 39
 					}
 				},
 				{
@@ -45,7 +48,8 @@
 					"scores": {
 						"Ace": 59,
 						"Bald": 44,
-						"Bill": 29
+						"Bill": 29,
+						"Gina": 66
 					}
 				},
 				{
@@ -56,7 +60,8 @@
 					"scores": {
 						"Ace": 68,
 						"Bald": 51,
-						"Bill": 71
+						"Bill": 71,
+						"Gina": 48
 					}
 				}
 			]
